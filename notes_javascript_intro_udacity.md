@@ -103,3 +103,33 @@ document.getElementsByTagName("h1")[0].style.color = "#ff0000";
 
 
 ### CONDITIONALS:
+- Code - breaking down problem into an algorithm that's executed by a computer.
+- Every value in JavaScript has an inherent boolean value. When that value is evaluated in the context of a boolean expression, the value will be transformed into that inherent boolean value.
+
+### List of Falsy Values in JS (only 6)
+- Boolean value false
+- null type
+- undefined type
+- number 0
+- empty string ""
+- odd value NaN (stands for "not a number")
+
+### Ternary Operator:
+- conditional ? (if condition is true) : (if condition is false)
+- Eg: color === 'red' ? console.log('red') : console.log('not red')
+- another eg:
+
+var isGoing = true;
+var color = isGoing ? "green" : "red";
+console.log(color);
+
+- can handle replacing the conditional + variable assignment.
+
+
+### Switch Statements:
+- another way to chain multiple else if statements that are based on the same value without using conditional statements. Instead, you just switch which piece of code is executed based on a value.
+- Falling through behaviour - all code below matching case gets executed as well (unless a break is added).
+- Can be used with any data type.
+- In some cases you might want to leverage falling through behaviour.
+- can also use a default case - gets executed when none of the cases match.
+-
